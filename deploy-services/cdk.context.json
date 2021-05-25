@@ -1,0 +1,51 @@
+{
+  "vpc-provider:account=AWS-ACCOUNT:filter.vpc-id=vpc-21508a5c:region=REGION:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-21508a5c",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-b2a83c93",
+            "cidr": "172.31.80.0/20",
+            "availabilityZone": "us-east-1a",
+            "routeTableId": "rtb-e7a38299"
+          },
+          {
+            "subnetId": "subnet-61471e2c",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "us-east-1b",
+            "routeTableId": "rtb-e7a38299"
+          },
+          {
+            "subnetId": "subnet-14f3794b",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "us-east-1c",
+            "routeTableId": "rtb-e7a38299"
+          },
+          {
+            "subnetId": "subnet-76c94010",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "us-east-1d",
+            "routeTableId": "rtb-e7a38299"
+          },
+          {
+            "subnetId": "subnet-eb08d5da",
+            "cidr": "172.31.48.0/20",
+            "availabilityZone": "us-east-1e",
+            "routeTableId": "rtb-e7a38299"
+          },
+          {
+            "subnetId": "subnet-e12b68ef",
+            "cidr": "172.31.64.0/20",
+            "availabilityZone": "us-east-1f",
+            "routeTableId": "rtb-e7a38299"
+          }
+        ]
+      }
+    ]
+  }
+}

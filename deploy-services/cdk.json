@@ -1,0 +1,14 @@
+{
+  "app": "cd .. && .\\gradlew.bat deploy:run",
+  "requireApproval": "never",
+  "context": {
+    "@aws-cdk/core:enableStackNameDuplicates": "true",
+    "aws-cdk:enableDiffNoFail": "true",
+    "env": "",
+    "vpcId": "vpc-21508a5c",
+    "vpcPublicSubnetIds": [
+      "subnet-76c94010",
+      "subnet-b2a83c93"
+    ]
+  }
+}
